@@ -1,0 +1,162 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/****************** HEADINGS ***********************/
+.big-heading {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.color-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/****************** TITLE SECTION ******************/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: Montserrat-light;
+  font-size: 1.2rem;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-img {
+  width: 20%;
+  /* transform: scale(0.6); */
+  transform: rotate(25deg);
+  /* Equal to rotateZ(45deg) */
+  background-color: transparent;
+  position: absolute;
+  left: 55%;
+}
+
+/****************** FEATURES SECTION ******************/
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/****************** TESTIMONIALS SECTION ******************/
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/****************** PRESS SECTION ******************/
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/****************** PRICING SECTION ******************/
+.cardpricing {
+  padding-top: 3%;
+}
+
+/****************** CTA SECTION ******************/
+
+
+/****************** FOOTER SECTION ******************/
+.footer-logo {
+  margin: 20px 10px;
+}
+
+/****************** ID Selectors ********************/
+#features {
+  position: relative;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+#footer {
+  line-height: 2.5;
+}
+
+/******************** Media query sizes *****************/
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    /* width: 20%; */
+    /* transform: scale(0.6); */
+    transform: rotate(0);
+    /* background-color: transparent; */
+    position: static;
+    /* left: 55%; */
+  }
+}
